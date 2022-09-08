@@ -1,0 +1,161 @@
+/* img */
+
+.image {
+    text-align: center;
+}
+
+.h1 {
+    text-align: center;
+    background-color: #00aced;
+    text-decoration: underline;
+}    
+
+/* geral */
+
+
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: 40px;
+    font-family: #323232;
+    border: none;
+}
+
+textarea:focus, input:focus {
+    outline: none;
+}
+
+a {
+    font-size: .8rem;
+}
+
+a:hover {
+    color: #08558B;
+}
+
+/* container login */
+
+#login-container {
+    background-color: #fff;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    margin-top: 10vh;
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* formulário */
+
+form{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+label, input {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+    font-size: .8rem;
+}
+
+input{
+    border-bottom: 2px solid#323232;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+input:focus {
+    border-bottom: 2px solid #08558B;
+}
+
+#forgot-pass {
+    text-align: right;
+    display: block;
+}
+
+input[type="submit"] {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    color: #fff;
+    background-color: #08558B;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #1b223c;
+    transition: .5s;
+}
+
+/* social media */
+
+#social-container, #social-containetr p {
+    margin-bottom: 20px;
+}
+
+#social-container i {
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    color: #fff;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+#social-containter2 > p {
+    text-align: center;
+    background-color: #00aced;
+    line-height: center;
+}
+
+.fa-facebook-f {
+    background-color: #3b5998;
+}
+
+.fa-linkedin {
+    background-color: #0976b4;
+}
+
+.fa-twitter {
+    background-color: #00aced;
+}
+
+.fa-google {
+    background-color: #dd4b39;
+}
+
+.fa-apple {
+    background-color: black;
+}
+
+.fa-instagram {
+    background-color: rgb(167, 21, 45);
+}
+
+.fa-github {
+    background-color: black;
+}
+
+/* register */
+
+.register-container {
+    margin-bottom: center;
+    text-align: center;
+}
+
+.h2 {
+    text-align: center;
+}
